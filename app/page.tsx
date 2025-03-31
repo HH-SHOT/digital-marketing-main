@@ -85,7 +85,7 @@ export default function Home() {
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link href={"/showcase"} className="hover:text-blue-500">
-              Showcase
+            Vitrine
             </Link>
 
             <ScrollLink
@@ -101,7 +101,7 @@ export default function Home() {
               smooth={true}
               className="hover:text-blue-500"
             >
-              Process
+              Processus
             </ScrollLink>
 
             <ScrollLink
@@ -109,7 +109,7 @@ export default function Home() {
               smooth={true}
               className="hover:text-blue-500"
             >
-              Guarentees
+              Garanties
             </ScrollLink>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Home() {
   duration-200
      hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
           >
-            Book a call
+            Réservez un appel.
           </Link>
         </div>
       </Element>
@@ -153,8 +153,7 @@ export default function Home() {
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            Planifiez un appel avec nous pour discuter de votre projet et obtenir un devis en quelques minutes.
           </p>
 
           <div
@@ -182,7 +181,7 @@ export default function Home() {
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
             >
-              Book a Call
+              Réservez un appel.
             </Link>
             <Link
               href={"/showcase"}
@@ -197,7 +196,7 @@ export default function Home() {
         rounded-[6px]
         hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
             >
-              Showcase
+              Vitrine
             </Link>
           </div>
 
@@ -205,13 +204,13 @@ export default function Home() {
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Design
+                Conception
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Development
+                Développement
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
@@ -223,23 +222,23 @@ export default function Home() {
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Strategy
+                Stratégie
               </p>
             </BoxReveal>
           </div>
 
           <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
             <div className="md:w-2/5">
-              <h1 className="text-2xl font-medium text-gray-600 w-4/5">
-                Trusted by fast moving brands worldwide
-              </h1>
+                <h1 className="text-2xl font-medium text-gray-600 w-4/5">
+                Approuvé par des marques dynamiques dans le monde entier
+                </h1>
 
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
                     <NumberTicker value={1000} /> +
                     <p className="text-gray-500 text-sm md:text-md">
-                      Happy Clients
+                    Clients satisfaits
                     </p>
                   </h1>
                 </div>
@@ -250,7 +249,7 @@ export default function Home() {
                   <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
                     <NumberTicker value={100} /> +
                     <p className="text-gray-500 text-sm md:text-md">
-                      Projects Completed
+                    Projets réalisés
                     </p>
                   </h1>
                 </div>
@@ -283,7 +282,7 @@ export default function Home() {
           <WordPullUpDemo />
         </h1>
         <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        All of our services are designed to help your business stand out 
+        Tous nos services sont conçus pour aider votre entreprise à se démarquer 
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
@@ -314,7 +313,7 @@ export default function Home() {
       <Element name="process">
         <main className="md:px-0 mx-6 md:mx-auto">
         <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
-        Our{" "}
+        Notre{" "}
             <span className="text-blue-500 flex gap-x-1 items-center">
               {" "}
               <Image
@@ -324,7 +323,7 @@ export default function Home() {
                 className="w-6"
                 alt="image"
               />
-              Creative
+              Processus 
               <Image
                 src={"/icons/star.svg"}
                 width={10000}
@@ -333,14 +332,13 @@ export default function Home() {
                 alt="image"
               />
             </span>{" "}
-            Process
+            Créatif
           </h1>
 
           <p className="text-center 
           py-4 md:w-1/2 mx-auto 
           text-xl md:text-2xl text-gray-500">
-            All of our services are designed to help your business to get
-            noticed.
+            Tous nos services sont conçus pour aider votre entreprise à se faire remarquer.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-1/2 mx-auto">
@@ -367,10 +365,10 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
+              &quot;Nous travaillons avec Bird depuis plus de 2 ans et ils ont
+              été incroyables à collaborer avec. Ils nous ont aidés à développer
+              notre entreprise et nous ne pourrions pas être plus satisfaits des
+              résultats. &quot;
             </h1>
             <div className="flex items-center gap-x-1">
               <IconStarFilled className="text-4xl text-yellow-500" />
@@ -409,12 +407,12 @@ export default function Home() {
           </h1>
           <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
           <p className="text-left  text-xl  text-gray-500">
-            admin@birdsoftware.ca
+          hel@hamzaelhakkioui.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Bird. All Rights Reserved.
+          © 2025 H-el. All Rights Reserved.
           <Link href="/" className="text-blue-500">
             Privacy Policy
           </Link>

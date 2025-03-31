@@ -23,28 +23,28 @@ const Meeting = () => {
        <div><ShowcaseNavbar/></div> 
       <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto  ">
         <div className="md:w-2/5">
-          <h1 className="text-4xl font-semibold pt-10   ">Let&apos;s Meet</h1>
+          <h1 className="text-4xl font-semibold pt-10   ">Rencontrons-nous</h1>
           <p className="text-lg text-gray-500 py-4">
-            We are always excited to meet new people and discuss new projects.
-            Please feel free to book a meeting with us.
+          Nous sommes toujours ravis de rencontrer de nouvelles personnes et de discuter de nouveaux projets.
+          N'hésitez pas à prendre rendez-vous avec nous. 
           </p>
 
           {[
                 {
-                  title: "Development + Design",
+                  title: "Développement & Conception",
                   description:
-                    "Turn your ideas into reality with our development and design services.",
+                    "Transformez vos idées en réalité grâce à nos services de développement et de conception.",
                 },
 
                 {
-                  title: "Free Consultation",
+                  title: "Consultation gratuite",
                   description:
-                    "Get expert advice on how to improve your business and increase your online presence.",
+                    "Obtenez des conseils d'experts pour améliorer votre entreprise et augmenter votre présence en ligne.",
                 },
                 {
-                  title: "Technical Support",
+                  title: "Support technique",
                   description:
-                    "Get technical support for your website or application.",
+                    "Bénéficiez d'un support technique pour votre site web ou application.",
                 },
               ].map((item, index) => (
                 <motion.div

@@ -6,48 +6,48 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
+    title: "Livraison rapide",
     description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+      "Livraison en 1 à 2 semaines pour la plupart des projets. Appelez-nous pour plus d'informations.",
   },
   {
     icon: "/icons/design.svg",
-    title: "Design & Development",
+    title: "Conception & Développement",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "Nous concevons et développons votre site web avec les dernières technologies et tendances.",
   },
   {
     icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    title: "Évolutivité & Maintenance ",
+    description: "Nous offrons la maintenance et l’évolutivité pour tous les sites web.",
   },
   {
     icon: "/icons/team.svg",
-    title: "Team of Experts",
-    description: "A team of experts ready to help you, at all times.",
+    title: "Équipe d'experts",
+    description: "Une équipe d'experts prête à vous aider à tout moment.",
   },
   {
     icon: "/icons/safe.svg",
-    title: "Secure Building",
+    title: "Construction sécurisée",
     description:
-      "Safe and secure building practices. To ensure your data is safe.",
+      "Des pratiques de développement sûres et sécurisées pour garantir la protection de vos données.",
   },
   {
     icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
+    title: "Suivi analytique",
+    description: "Suivez vos performances grâce à nos analyses intégrées.",
   },
 
   {
     icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
+    title: "Sites web dynamiques",
+    description: "Nous concevons des solutions dynamiques faciles à gérer.",
   },
   {
     icon: "/icons/support.svg",
     title: "24/7 Support",
     description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
+      "Nous offrons un support 24/7 pour tous nos clients. Appelez-nous pour plus d'informations.",
   },
   {
     icon: "/icons/money.svg",
@@ -60,10 +60,10 @@ export function ShootingStarsAndStarsBackgroundDemo() {
   return (
     <div className="mt-20 py-10 md:py-20 rounded-[40px] bg-neutral-900 flex flex-col items-center justify-center relative w-full px-6 md:px-0">
       <h2 className="relative flex-col  z-10 text-3xl md:text-5xl md:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-white to-white flex items-center gap-2 ">
-        Our guarantees to you.
+        Nos garanties pour vous.
         <p className="md:text-center   mx-auto  text-xl md:text-2xl text-gray-200">
-          We ensure the highest quality of work, with the fastest delivery
-          times.
+        Nous assurons la plus haute qualité de travail, avec les délais de livraison les plus
+        rapides.
         </p>
       </h2>
 
