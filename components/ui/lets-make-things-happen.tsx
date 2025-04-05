@@ -14,7 +14,7 @@ function LetsMakeThingsHappenSection() {
         </p>
 
         <p className="my-10 text-xl">
-          Contactez-nous dès aujourd'hui pour en savoir plus sur la façon dont nos services de marketing numérique peuvent aider votre entreprise à se développer et à réussir en ligne.
+          Contactez-nous dès aujourd&apos;hui pour en savoir plus sur la façon dont nos services de marketing numérique peuvent aider votre entreprise à se développer et à réussir en ligne.
         </p>
 
         <Link

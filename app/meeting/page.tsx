@@ -26,7 +26,7 @@ const Meeting = () => {
           <h1 className="text-4xl font-semibold pt-10   ">Rencontrons-nous</h1>
           <p className="text-lg text-gray-500 py-4">
           Nous sommes toujours ravis de rencontrer de nouvelles personnes et de discuter de nouveaux projets.
-          N'hésitez pas à prendre rendez-vous avec nous. 
+          N&apos;hésitez pas à prendre rendez-vous avec nous. 
           </p>
 
           {[
