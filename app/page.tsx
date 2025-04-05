@@ -16,6 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 const services = [
@@ -81,7 +82,7 @@ export default function Home() {
             className="w-28"
           />
         </Link>
-
+        <SpeedInsights/>
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link href={"/showcase"} className="hover:text-blue-500">
